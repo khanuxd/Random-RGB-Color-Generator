@@ -1,5 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(182, 232, 255);
+}
+
+#main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
@@ -8,14 +16,20 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+  backdrop-filter: blur(2rem);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
 }
 
 button {
   border-style: none;
   border-radius: 5px;
   padding: 15px 30px;
-  background-color: rgb(114, 114, 114);
-  border-color: rgb(146, 146, 146);
+  background-color: rgb(59, 59, 59);
   color: rgb(255, 255, 255);
   font-size: 30px;
 }
